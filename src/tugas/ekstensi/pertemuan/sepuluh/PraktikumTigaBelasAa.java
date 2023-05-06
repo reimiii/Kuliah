@@ -14,7 +14,7 @@ public class PraktikumTigaBelasAa {
                 "2. lebih dari 20th \n " +
                 "3. sama dengan 20th \n " +
                 "Masukkan pilihan anda : ");
-        Integer pilihanUmur = scanner.nextInt();
+        int pilihanUmur = scanner.nextInt();
 
         switch (pilihanUmur) {
             case 1:
