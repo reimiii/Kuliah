@@ -67,16 +67,18 @@ public class App {
             int r = p + q;
 //            System.out.println(t + "." + "What is the result of " + p + " + " + q + ":");
             var ans = input(t + "." + "What is the result of " + p + " + " + q + " (x untuk batal) ");
+            if (ans.equalsIgnoreCase("x")) {
+                // exit
+            }
 
             // dari string ke integer
-            var tInt = Integer.valueOf(ans);
 
 //            int ans = answer.nextInt();
-            if (tInt == r) {
+            if (Integer.parseInt(ans) == r) {
                 System.out.println("Yes, " + x + " You are Correct!");
                 score += 5;
                 t += 1;
-            } else if (tInt != r) {
+            } else if (Integer.parseInt(ans) != r) {
                 System.out.println("Sorry " + x + " You are Incorrect!");
                 score -= 2;
                 life -= 1;
