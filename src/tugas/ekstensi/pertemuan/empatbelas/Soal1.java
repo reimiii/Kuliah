@@ -39,7 +39,10 @@ public class Soal1 {
         System.out.println("| NPM\t| Nama\t| UTS\t| UAS\t| Praktikum\t| Akhir\t|");
         System.out.println("----------------------------------------------------");
         for (int i = 0; i < 5; i++) {
-            System.out.println("| " + mahasiswa[i][0] + "\t| " + mahasiswa[i][1] + "\t| " + mahasiswa[i][2] + "\t| " + mahasiswa[i][3] + "\t| " + mahasiswa[i][4] + "\t\t| " + mahasiswa[i][5] + "\t|");
+            System.out.println("| " + mahasiswa[i][0] + "\t| "
+                    + mahasiswa[i][1] + "\t| " + mahasiswa[i][2] + "\t| "
+                    + mahasiswa[i][3] + "\t| " + mahasiswa[i][4] + "\t\t| "
+                    + mahasiswa[i][5] + "\t|");
         }
         System.out.println("----------------------------------------------------");
 
