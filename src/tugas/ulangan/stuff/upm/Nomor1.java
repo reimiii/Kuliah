@@ -12,7 +12,7 @@ public class Nomor1 {
         System.out.println("====================================");
         int i = 1;
         while (i <= 10) {
-            System.out.println(number + " : " + i + " = " + number / i + " sisa " + number % i);
+            System.out.println(number + " : " + i + " = " + (number / i) + " sisa " + (number % i));
             i++;
         }
     }
